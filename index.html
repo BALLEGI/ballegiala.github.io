@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ballegi ALA - Portfolio Réseaux & Cybersécurité</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Importer une police moderne depuis Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <!-- Icônes Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <header id="top">
+        <div class="container">
+            <img src="ballegi.jpg" alt="Photo de profil de Ballegi ALA" class="profile-pic">
+            <h1>Ballegi ALA</h1>
+            <p class="subtitle">Étudiant en Réseaux et Sécurité Informatique</p>
+            <p class="pitch">
+                Actuellement à la recherche d'un stage de fin d'études (PFE) pour mettre ma passion et mes compétences techniques au service de projets innovants en cybersécurité et administration système.
+            </p>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/ala-ballegi-120317299" target="_blank" title="Mon LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/BALLEGI" target="_blank" title="Mon GitHub"><i class="fab fa-github"></i></a>
+                <a href="mailto:ballegiala5@gmail.com" title="M'envoyer un email"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <a href="#a-propos">À Propos</a>
+            <a href="#projets">Projets</a>
+            <a href="#competences">Compétences</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+
+    <main>
+        <!-- ====================================== -->
+        <!-- SECTION À PROPOS -->
+        <!-- ====================================== -->
+        <section id="a-propos" class="hidden">
+            <div class="container">
+                <h2>Mon Parcours et Mes Ambitions</h2>
+                <p>Étudiant motivé et rigoureux à l'ISET Nabeul, j'ai développé une solide expertise en administration de systèmes Linux/Unix et en gestion d'infrastructures réseau. Mon expérience chez <strong>Tunisie Telecom</strong>, de l'observation à la perfectionnement, m'a permis de confronter mes connaissances théoriques aux réalités du terrain.</p>
+                <p>Je suis un apprenant curieux, constamment à l'affût des dernières technologies en matière de virtualisation (Docker), de pare-feu (pfSense) et de systèmes de détection d'intrusion (Snort). Mon objectif est d'intégrer une équipe où je pourrai contribuer activement à la sécurisation des systèmes et des réseaux tout en continuant à développer mon savoir-faire.</p>
+            </div>
+        </section>
+
+        <!-- ====================================== -->
+        <!-- SECTION PROJETS -->
+        <!-- ====================================== -->
+        <section id="projets" class="hidden">
+            <div class="container">
+                <h2>Projets Techniques</h2>
+                
+                <div class="projet-card">
+                    <h3><i class="fas fa-shield-alt"></i> Lab de Sécurité Réseau avec pfSense & Snort</h3>
+                    <p>Conception et déploiement d'un laboratoire virtuel pour simuler un environnement d'entreprise. L'objectif était de protéger un serveur interne en utilisant un pare-feu pfSense et un système de détection d'intrusion Snort pour analyser le trafic et bloquer les menaces.</p>
+                    <ul>
+                        <li><strong>Technologies :</strong> pfSense, Snort, VirtualBox, Ubuntu Server</li>
+                        <li><strong>Résultat :</strong> Réseau sécurisé avec des règles de filtrage précises et des alertes IDS fonctionnelles.</li>
+                    </ul>
+                    <a href="https://github.com/BALLEGI/nom-du-projet-pfsense" target="_blank" class="btn"><i class="fab fa-github"></i> Voir le projet sur GitHub</a>
+                </div>
+
+                <div class="projet-card">
+                    <h3><i class="fab fa-docker"></i> Application Web Conteneurisée avec Docker</h3>
+                    <p>Développement et déploiement d'une application web dynamique en utilisant une architecture basée sur des conteneurs. Ce projet démontre ma capacité à automatiser les déploiements et à gérer des services interconnectés.</p>
+                    <ul>
+                        <li><strong>Technologies :</strong> Docker, Docker Compose, Nginx (Reverse Proxy), MariaDB</li>
+                        <li><strong>Résultat :</strong> Architecture scalable et portable, déployable en une seule commande.</li>
+                    </ul>
+                    <a href="https://github.com/BALLEGI/nom-du-projet-docker" target="_blank" class="btn"><i class="fab fa-github"></i> Voir le projet sur GitHub</a>
+                </div>
+                
+                <div class="projet-card">
+                    <h3><i class="fas fa-code"></i> Développement de ce Portfolio</h3>
+                    <p>Ce site web lui-même est un projet. Réalisé en HTML5, CSS3 et JavaScript pur, il est optimisé pour la performance et la compatibilité. Il est hébergé gratuitement sur GitHub Pages, démontrant ainsi mes compétences en développement front-end et en gestion de projet.</p>
+                    <ul>
+                        <li><strong>Technologies :</strong> HTML5, CSS3, JavaScript, GitHub Pages</li>
+                        <li><strong>Résultat :</strong> Un portfolio professionnel, moderne et animé.</li>
+                    </ul>
+                    <a href="https://github.com/BALLEGI/BALLEGI.github.io" target="_blank" class="btn"><i class="fab fa-github"></i> Voir le code source</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ====================================== -->
+        <!-- SECTION COMPÉTENCES -->
+        <!-- ====================================== -->
+        <section id="competences" class="hidden">
+            <div class="container">
+                <h2>Mes Compétences Clés</h2>
+                <div class="skills-grid">
+                    <div class="skill">
+                        <p>Cisco / Réseaux</p>
+                        <div class="skill-bar"><div class="skill-level" data-level="85%"></div></div>
+                    </div>
+                    <div class="skill">
+                        <p>Linux (Admin Système)</p>
+                        <div class="skill-bar"><div class="skill-level" data-level="90%"></div></div>
+                    </div>
+                    <div class="skill">
+                        <p>Sécurité (pfSense, Snort)</p>
+                        <div class="skill-bar"><div class="skill-level" data-level="75%"></div></div>
+                    </div>
+                    <div class="skill">
+                        <p>Virtualisation (Docker)</p>
+                        <div class="skill-bar"><div class="skill-level" data-level="80%"></div></div>
+                    </div>
+                    <div class="skill">
+                        <p>Serveurs Web (Nginx/Apache)</p>
+                        <div class="skill-bar"><div class="skill-level" data-level="85%"></div></div>
+                    </div>
+                    <div class="skill">
+                        <p>Bases de Données (MySQL/MariaDB)</p>
+                        <div class="skill-bar"><div class="skill-level" data-level="70%"></div></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- ====================================== -->
+        <!-- SECTION CONTACT -->
+        <!-- ====================================== -->
+        <section id="contact" class="hidden">
+            <div class="container">
+                <h2>Prêt à collaborer ?</h2>
+                <p>Je suis actuellement à la recherche d'une opportunité de stage de fin d'études pour une durée de 3 à 4 mois. Si vous pensez que mon profil correspond à vos besoins, n'hésitez pas à me contacter.</p>
+                <a href="mailto:ballegiala5@gmail.com?subject=Proposition de stage PFE" class="btn btn-primary">M'envoyer un e-mail</a>
+            </div>
+        </section>
+    </main>
+
+    <!-- ====================================== -->
+    <!-- PIED DE PAGE (FOOTER) -->
+    <!-- ====================================== -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Ballegi ALA. Conçu avec <i class="fas fa-heart"></i> et beaucoup de café.</p>
+        </div>
+    </footer>
+
+    <!-- ====================================== -->
+    <!-- JAVASCRIPT POUR LES ANIMATIONS -->
+    <!-- ====================================== -->
+    <script>
+        // Crée un observateur d'intersection pour les animations au scroll
+        const observer = new IntersectionObserver(entries => {
+            entries.forEach(entry => {
+                // Si l'élément est visible
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('show');
+                    
+                    // Si c'est une barre de compétence, on déclenche l'animation
+                    if (entry.target.classList.contains('skill')) {
+                        const skillLevel = entry.target.querySelector('.skill-level');
+                        const level = skillLevel.getAttribute('data-level');
+                        skillLevel.style.width = level;
+                    }
+                }
+            });
+        }, {
+            threshold: 0.1 // Déclenche l'animation quand 10% de l'élément est visible
+        });
+
+        // Cible tous les éléments à animer
+        const hiddenElements = document.querySelectorAll('.hidden');
+        const skills = document.querySelectorAll('.skill');
+
+        hiddenElements.forEach(el => observer.observe(el));
+        skills.forEach(el => observer.observe(el));
+
+    </script>
+</body>
+</html>
